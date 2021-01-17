@@ -14,6 +14,7 @@ rm -rf get-pip.py
 printf "\e[0;1;32m--------> \e[0;1;36m(\e[0;1;31m5\e[0m/\e[0;1;93m10\e[0m\e[0;1;36m)\e[0m\n"
 sudo pip install virtualenv
 printf "\e[0;1;32m--------> \e[0;1;36m(\e[0;1;31m6\e[0m/\e[0;1;93m10\e[0m\e[0;1;36m)\e[0m\n"
+sudo pip install service_identity
 sudo pip install Twisted
 printf "\e[0;1;32m--------> \e[0;1;36m(\e[0;1;31m7\e[0m/\e[0;1;93m10\e[0m\e[0;1;36m)\e[0m\n"
 sudo pip install sslstrip
